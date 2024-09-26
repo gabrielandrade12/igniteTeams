@@ -8,7 +8,7 @@ type Props = TouchableOpacityProps & {
 export function GroupCard({ title, ...rest }: Props){
     return(
         <Container {...rest}>
-            <Icon/>
+            <Icon name="addusergroup"/>
 
             <Title>
                 {title}

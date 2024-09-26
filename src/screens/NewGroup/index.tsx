@@ -41,7 +41,7 @@ export function NewGroup() {
             <Header showBackButton/>
 
             <Content>
-                <Icon/>
+                <Icon name="addusergroup"/>
 
                 <Highlight 
                     title="Nova turma"

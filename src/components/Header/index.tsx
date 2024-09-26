@@ -20,7 +20,7 @@ export function Header({ showBackButton = false }: Props){
             {
                 showBackButton &&
                 <BackButton onPress={handleGoBack}>
-                    <BackIcon/>
+                    <BackIcon name="arrowleft"/>
                 </BackButton>
             }
             

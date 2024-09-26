@@ -1,6 +1,6 @@
 import { SafeAreaView } from "react-native-safe-area-context"; 
 import styled from "styled-components/native";
-import { UsersThree } from 'phosphor-react-native';
+import { AntDesign } from '@expo/vector-icons'
 
 export const Container = styled(SafeAreaView)`
     flex: 1;
@@ -15,7 +15,7 @@ export const Content = styled.View`
     justify-content: center;
 `;
 
-export const Icon = styled(UsersThree).attrs(({ theme }) => ({
+export const Icon = styled(AntDesign).attrs(({ theme }) => ({
     size: 56,
     color: theme.COLORS.GREEN_700
 }))`
